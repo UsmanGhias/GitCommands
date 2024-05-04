@@ -184,6 +184,23 @@ git config --list
 # Set SSH for GitHub
 git remote set-url origin git@github.com:[username]/[repository-name].git
 ```
+# Advanced Usage
+```bash
+# Visualize branch topology
+git log --all --graph
+
+# Revert file to a previous commit
+git checkout [commit-hash] [file-name.txt]
+
+# Reset current HEAD to a specified state
+git reset --hard [commit-hash]
+
+# Modify commit messages
+git commit --amend -m "New message"
+
+# List all stashed changes
+git stash list
+```
 
 Feel free to explore and use these commands to effectively manage your Git repositories. {Usman Ghias}
 [CODCrafters](https://www.codcrafters.org/contactus)
