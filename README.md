@@ -2,7 +2,7 @@
 
 _A list of commonly used Git commands._
 
-**Note**: The following commands assume that you have Git installed and have basic knowledge of using the command line interface.{Usman Ghias}
+**Note**: The following commands assume that you have Git installed and have basic knowledge of using the command line interface. {Usman Ghias}
 
 ## Table of Contents
 
@@ -172,6 +172,19 @@ git pull
 git stash
 ```
 
+
+# Configuration & Setup
+```bash
+# Configure user name globally
+git config --global user.name "Usman Ghias"
+
+# List all configurations
+git config --list
+
+# Set SSH for GitHub
+git remote set-url origin git@github.com:[username]/[repository-name].git
+```
+
 Feel free to explore and use these commands to effectively manage your Git repositories. {Usman Ghias}
-[CODCrafters](https://www.codcrafters.com/contactus)
+[CODCrafters](https://www.codcrafters.org/contactus)
 Please refer to the [official Git documentation](https://git-scm.com/doc) for more information and advanced usage of Git commands.
